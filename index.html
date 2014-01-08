@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+    <title>WorldPop</title>
+
+    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.5.1/mapbox.css' rel='stylesheet' />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="http://www.mapbox.com/base/latest/base.css" /> -->
+
+    <script src='http://api.tiles.mapbox.com/mapbox.js/v1.5.1/mapbox.js'></script>
+    <script src="ext/jquery-1.10.2.min.js"></script>
+</head>
+
+<body>
+<div id='map'></div>
+
+<div id='population-legend' style='display: none'>
+<div class='map-legendGraduated clearfix'>
+    <div class='legend-name'>
+        <div class='legend-title'>Population per km<sup>2</sup></div>
+    </div>
+    <div class='legend-scale'>
+        <ul class="legend-labels">
+            <li></li>
+            <li></li>
+            <li style="font-size: 100%">Rural</li>
+            <li style="text-align: right; font-size: 100%">|</li>
+            <li style="text-align: left; font-size: 100%">|</li>
+            <li style="font-size: 100%">Urban</li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul class='legend-labels' style="clear:both;">
+            <li><span style='background:#FFFFB2;'></span>1</li>
+            <li><span style='background:#FEB24C;'></span>20</li>
+            <li><span style='background:#FD8D3C;'></span>50</li>
+            <li><span style='background:#FF6247;'></span>200</li>
+            <li><span style='background:#DA2996;'></span>400</li>
+            <li><span style='background:#8A15A7;'></span>800</li>
+            <li><span style='background:#3D0075;'></span>1600</li>
+            <li><span style='background:#210E52;'></span>3200+</li>
+<!--             <li><span style='background:#FDFDEA;'></span>1</li>
+            <li><span style='background:#FDEEB8;'></span>5</li>
+            <li><span style='background:#FDD498;'></span>20</li>
+            <li><span style='background:#FDD498;'></span>50</li>
+            <li><span style='background:FF6247;'></span>200</li>
+            <li><span style='background:DA2996;'></span>400</li>
+            <li><span style='background:8A15A7;'></span>800</li>
+            <li><span style='background:3D0075;'></span>1600</li>
+            <li><span style='background:210E52;'></span>3200+</li> -->
+        </ul>
+    </div>
+    <!-- <div class='legend-source'>Source: <a href="http://www.worldpop.org.uk/">WorldPop</a> and <a href="http://web.ornl.gov/sci/landscan/index.shtml">Landscan</a></div> -->
+</div>
+</div>
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
