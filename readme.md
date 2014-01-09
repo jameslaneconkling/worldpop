@@ -1,3 +1,5 @@
-# A Sample Mapbox Project
+# WorldPop Population Density
 
-Probably won't be relevant for much longer, so why bother?
+High resolution, contemporary data on human population distributions.
+
+[Download](http://www.worldpop.org.uk/about/) the data.
